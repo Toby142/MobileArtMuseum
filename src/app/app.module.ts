@@ -7,6 +7,7 @@ import { ArtistProfileComponent } from './components/artist-profile/artist-profi
 import { ArtworkComponent } from './components/artwork/artwork.component';
 import { ArtistsComponent } from './components/artists/artists.component';
 import { ArtworkProfileComponent } from './components/artwork-profile/artwork-profile.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { ArtworkProfileComponent } from './components/artwork-profile/artwork-pr
     ArtworkComponent,
     ArtistsComponent,
     ArtworkProfileComponent,
+    NavBarComponent,
   ],
   imports: [
     BrowserModule,
